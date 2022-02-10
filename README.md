@@ -23,12 +23,17 @@ You will also need to have Python installed. I used 3.8 version. Install it in o
 
 ## Token setup
 
-3. A TELEGRAM_TOKEN is needed for the bot to work. This corresponds to the bot API Token, so you will need to create a bot using BotFather and retrieve the API Token from your bot.
+3. A TELEGRAM_TOKEN is needed for the bot to work. This corresponds to the bot API Token, so you will need to create a bot using BotFather and retrieve your bot's API Token.
 
-I found this tutorial online which may be helpful if you don't know how to do it: [How to Create and Connect a Telegram Chatbot](https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot)
+I found this tutorial online which may be helpful if you don't know how to do it: 
+
+[How to Create and Connect a Telegram Chatbot](https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot)
 
 4. Also, you will need your TELEGRAM_CHAT_ID. To get it:
- * In your browser, enter this Chat ID Link with your Token: https://api.telegram.org/botYOUR_TELEGRAM_TOKEN/getUpdates?offset=0.
+ * In your browser, enter this Chat ID Link with your Token: 
+
+https://api.telegram.org/botYOUR_TELEGRAM_TOKEN/getUpdates?offset=0.
+
  * In your Telegram app, send your bot a message.
  * Again in your browser, update the page, identify your message and look for your id attribute: that's your TELEGRAM_CHAT_ID.
 
