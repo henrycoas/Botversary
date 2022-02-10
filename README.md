@@ -1,6 +1,6 @@
 # Botversary
 
-Botversary is a Telegram Bot that, given a set of aniversaries, sends a message if there is a birthday today. 
+Botversary is a Telegram Bot that, given a set of anniversaries, sends a message if there is a birthday today. 
 
 Therefore, it needs to be executed everyday.
 
