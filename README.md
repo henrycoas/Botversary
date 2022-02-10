@@ -30,9 +30,9 @@ I found this tutorial online which may be helpful if you don't know how to do it
 [How to Create and Connect a Telegram Chatbot](https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot)
 
 4. Also, you will need your TELEGRAM_CHAT_ID. To get it:
- * In your browser, enter this Chat ID Link with your Token: 
+ * In your browser, enter this Chat ID Link and replace YOUR_TOKEN with the Telegram API Token from your bot: 
 
-https://api.telegram.org/botYOUR_TELEGRAM_TOKEN/getUpdates?offset=0.
+https://api.telegram.org/YOUR_TOKEN/getUpdates?offset=0.
 
  * In your Telegram app, send your bot a message.
  * Again in your browser, update the page, identify your message and look for your id attribute: that's your TELEGRAM_CHAT_ID.
@@ -71,3 +71,5 @@ You can also set both tokens in the *config.py* file, so you'll be able to short
    * Comments: May be easy for University or School friends but not for everyone, so it should be optional
  * **Run it once every morning**
    * Comments: In which server?
+ * **Better messages**
+   * Comments: Different colors, erase repetitive info related to today's date
